@@ -133,4 +133,4 @@ model =  tf.keras.models.Sequential([
 ```
 
 # Final training
-Once we have the struct of the two different structures of the models we proceed to train the models. You can see it in the entire code, also you can see how to save it in a .h5 format and in a .tflite format. Last there are two more programs, one save the train images in a directory of our PC and the other is an inferer using the train images, but you can use other different images, so, you can't use the function evaluate unless you put correctly the results (in an array of numbers with the correct answer).
+Once we have the struct of the two different structures of the models we proceed to train the models. You can see it in the entire code in TrainingFinalTFG, also you can see how to save it in a .h5 format and in a .tflite format. Last there are two more programs, one save the train images in a directory of our PC and the other is an inferer using the train images, but you can use other different images, so, you can't use the function evaluate unless you put correctly the results (in an array of numbers with the correct answer).
